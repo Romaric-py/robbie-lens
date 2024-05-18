@@ -1,0 +1,86 @@
+/* style.css */
+
+
+* {
+    margin: 0;
+    /* border: 1px solid red; */
+    font-family: Manrope, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER */ /*ok*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2039;
+    color: white;
+    padding: 70px 40px;
+    gap: 50px;
+}
+
+h1 {
+    font-family: Manrope;
+    font-size: 3em;
+    color: #adafed;
+}
+
+#description {
+    width: 500px;
+    margin: 0px 20px;
+}
+
+
+h1 {
+    margin: 20px 0px;
+}
+
+p {
+    text-align: justify;
+}
+
+#description em {
+    color: #adafed;
+    font-style: normal;
+}
+
+.button_link {
+    display: inline-block;
+    color: white;
+    background: linear-gradient(#8e90b6, #adafed);
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button_link:hover {
+    background: linear-gradient(#656681, #7779be);
+}
+
+
